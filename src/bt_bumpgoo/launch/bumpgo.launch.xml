@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="bt_bumpgo" exec="bt_bumpgo_main" name="bt_bumpgo_main" output="screen"/>
+  <node pkg="monitor" exec="monitor_0.py" name="monitor_0" output="screen"/>
+</launch>

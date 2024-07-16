@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="bt_bumpgoo" type="bt_bumpgo_main" exec="bt_bumpgo_main" name="bt_bumpgo_main" output="screen">
+        <param name="use_sim_time" value="true" />
+        <remap from="input_scan" to="/scan_raw" />
+        <remap from="output_vel" to="/cmd_vel" />
+    </node>
+
+    <node pkg="monitor" type="monitor_0" name="monitor_0" output="screen">
+        <param name="use_sim_time" value="true" />
+    </node>
+</launch>

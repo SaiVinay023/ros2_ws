@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+
+    <BehaviorTree ID="BehaviorTree">
+        <KeepRunningUntilFailure>
+            <Action ID="Turn"/>
+        </KeepRunningUntilFailure>
+    </BehaviorTree>
+
+    <TreeNodesModel>
+        <Action ID="Turn"/>
+    </TreeNodesModel>
+
+</root>
